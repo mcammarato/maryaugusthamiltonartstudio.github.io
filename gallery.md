@@ -1,6 +1,8 @@
 ---
 layout : navbar
 ---
+
+<h1>Gallery</h1>
 <div class="container">
   <div class="row">
     <section id="pinBoot">
