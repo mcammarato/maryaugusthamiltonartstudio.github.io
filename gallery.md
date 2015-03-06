@@ -2,7 +2,60 @@
 layout : navbar
 ---
 
-<h1>Gallery</h1>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+  <div class="row mobile-social-share">
+        <div class="col-md-9">
+                <h3>Share this content</h3>
+            </div>
+            <div id="socialHolder" class="col-md-3">
+            <div id="socialShare" class="btn-group share-group">
+                    <a data-toggle="dropdown" class="btn btn-info">
+                         <i class="fa fa-share-alt fa-inverse"></i>
+                    </a>
+            <button href="#" data-toggle="dropdown" class="btn btn-info dropdown-toggle share">
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                  <a data-original-title="Twitter" rel="tooltip"  href="#" class="btn btn-twitter" data-placement="left">
+                <i class="fa fa-twitter"></i>
+              </a>
+              </li>
+              <li>
+                <a data-original-title="Facebook" rel="tooltip"  href="#" class="btn btn-facebook" data-placement="left">
+               <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count"></div>
+              </a>
+              </li>         
+              <li>
+                <a data-original-title="Google+" rel="tooltip"  href="#" class="btn btn-google" data-placement="left">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              </li>
+                <li>
+                <a data-original-title="LinkedIn" rel="tooltip"  href="#" class="btn btn-linkedin" data-placement="left">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              </li>
+              <li>
+                <a data-original-title="Pinterest" rel="tooltip"  class="btn btn-pinterest" data-placement="left">
+                <i class="fa fa-pinterest"></i>
+              </a>
+              </li>
+                        <li>
+                <a  data-original-title="Email" rel="tooltip" class="btn btn-mail" data-placement="left">
+                <i class="fa fa-envelope"></i>
+              </a>
+              </li>
+                    </ul>
+          </div>
+            </div>
+        </div>
+  </div>
+</div>
+
+<!--Pintrest Tiles -->
+
 <div class="container">
   <div class="row">
     <section id="pinBoot">
@@ -18,7 +71,7 @@ layout : navbar
         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
 
-      <article class="white-panel"> <img src="/img/japanesewomen.jpg" alt="">
+      <article class="white-panel"> <img src="/img/threechildren.jpg" alt="">
         <h4><a href="#">Title 3</a></h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
           irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -36,7 +89,7 @@ layout : navbar
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
 
-      <article class="white-panel"> <img src="/img/angelmotif.jpg" alt="">
+      <article class="white-panel"> <img src="/img/japanesewomen.jpg" alt="">
         <h4><a href="#">Title 6</a></h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
           irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -50,23 +103,29 @@ layout : navbar
           irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
 
-      <article class="white-panel"> <img src="/img/walldesigndouble.png" alt="">
+       <article class="white-panel"><img src="/img/bamboo.png" alt="">
         <h4><a href="#">Title 8</a></h4>
-        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
 
+       <article class="white-panel"><img src="/img/angelmotif.jpg" alt="">
+        <h4><a href="#">Title 9</a></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+
+       <article class="white-panel"><img src="/img/walldesignvertical.jpg" alt="">
+        <h4><a href="#">Title 10</a></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+
+      <article class="white-panel"> <img src="/img/walldesigndouble.png" alt="">
+        <h4><a href="#">Title 11</a></h4>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
     </section>
-
-
     <hr>
-
-
   </div>
-  <p>
-    <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fbootsnipp.com%2Fiframe%2FZkk0O" target="_blank"><small>HTML</small><sup>5</sup></a>
-    <br>
-    <br>
-
-  </p>
-
 </div>
