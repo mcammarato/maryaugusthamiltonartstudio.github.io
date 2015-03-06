@@ -113,13 +113,13 @@
 body {
 
    
-    background-image: url("/img/lightgreentexture.jpg");
+    background-image: url("/img/greentexture.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-size: 1300px 990px;
-    background-repeat: no-repeat;
+    
     
    
 }
