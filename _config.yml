@@ -13,8 +13,8 @@ markdown: kramdown
 #
 title : Jekyll Bootstrap-3
 tagline: Site Tagline
-author :
-  name : 
+author : 
+  name :
   email : 
   github : username
   twitter : username
